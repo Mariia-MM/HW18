@@ -1,0 +1,38 @@
+body{
+    
+    align-content: center;
+    align-items: center;
+}
+.wrapper{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+    
+    max-width: 600px;
+    height: auto;
+    background-color: black;
+    color: whitesmoke;
+}
+.iconWrapper{
+    display: flex;
+    width: 40px;
+    background-color: hotpink;
+    padding: 5px;
+    border-radius: 50%;
+    align-items: center;
+    align-content: center;
+    
+
+}
+.icon{
+    width: 30px;
+    height: auto;
+    margin: 5px;
+   
+
+}
