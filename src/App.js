@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Redirect, Route } from 'react-router-dom';
+import {BrowserRouter, Redirect, Route } from 'react-router-dom';
 import EnterForm from "./components/enterForm/enterForm";
 import RegisterForm from "./components/registerForm/registerForm";
 
@@ -7,12 +7,12 @@ import './App.css';
 
 function App() {
   return (
-  <Router>
+  <BrowserRouter>
    <Redirect exact path="/" to="/EnterForm" />
       <Route path="/EnterForm" component={EnterForm} />
       <Route path="/RegisterForm" component={RegisterForm} />
-     
-   </Router>
+  </BrowserRouter>
+   
   );
 }
 
